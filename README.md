@@ -1,9 +1,9 @@
 # Neural networks
 
 Implementations of a number of classic neural network and training algoritms. Most of the code is based on the descriptions in [1].
-
-                [1] M. Hagan et al., Neural network design (2nd ed.), 2014. 
-
+```shell
+[1] M. Hagan et al., Neural network design (2nd ed.), 2014. 
+```
 To install the necessary libraries, type the following (assuming you are using `conda`):
 ```shell
 conda create --name nndesign python=3.9				
