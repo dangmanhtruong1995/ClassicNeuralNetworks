@@ -4,6 +4,8 @@ Implementations of a number of classic neural network and training algoritms.
 
 - `adaptive_predictor.py`: Implement a simple Perceptron network. The network tries to predict based on results of two previous time steps.
 
+![](https://github.com/dangmanhtruong1995/ClassicNeuralNetworks/blob/master/figures/adaptive_predictor_py_result.png "")
+
 - `bayesian_regularized_neural_network.py`: Implement a Bayesian regularized neural network. Training is done by taking one step of the Levenberg-Marquardt algorithm, calculate the effecitve number of parameters by using the Gauss-Newton approximation to the Hessian matrix, then compute new estimates for the regularization parameters, then repeat until stopping criteria is met. Experiments are done on a number of networks with different types of activation function (sigmoid, ReLU, ELU, Leaky ReLU, etc.).
 
 - `config.py`: Set config option for logging.
