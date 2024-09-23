@@ -5,10 +5,10 @@ Implementations of a number of classic neural network and training algoritms. Mo
                 [1] M. Hagan et al., Neural network design (2nd ed.), 2014. 
 
 To install the necessary libraries, type the following (assuming you are using `conda`):
-
+```shell
                 conda create --name nndesign python=3.9				
 				pip install -r requirements.txt
-				
+```				
 - `adaptive_predictor.py`: Implement a simple Perceptron network. The network tries to predict based on results of two previous time steps.
 
 ![](https://github.com/dangmanhtruong1995/ClassicNeuralNetworks/blob/master/figures/adaptive_predictor_py_result.png "")
