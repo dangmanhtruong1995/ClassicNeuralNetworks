@@ -239,7 +239,7 @@ def perform_widrow_hoff_experiment_leaky_relu():
     """ Perform the Widrow-Hoff experiment, based on descriptions in [1] (exercise P10.9).
     But this time we use Leaky ReLU (alpha parameter set to 0.1, I tried 0.01 but it did not work).
         
-    [1] M. Hagan et al., Neural network design (2nd ed.), 2014, .        
+    [1] M. Hagan et al., Neural network design (2nd ed.), 2014.        
 
     Parameters
     ---------------
