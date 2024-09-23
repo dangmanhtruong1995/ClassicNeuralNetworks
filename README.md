@@ -6,9 +6,9 @@ Implementations of a number of classic neural network and training algoritms. Mo
 
 To install the necessary libraries, type the following (assuming you are using `conda`):
 
-                `conda create --name nndesign python=3.9`
+                conda create --name nndesign python=3.9
 				
-				`pip install -r requirements.txt`
+				pip install -r requirements.txt
 				
 - `adaptive_predictor.py`: Implement a simple Perceptron network. The network tries to predict based on results of two previous time steps.
 
